@@ -6,7 +6,7 @@ import { Header, Footer } from "@/components/Site";
 export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ||
-      "https://my-portfolio.vercel.app",
+      "https://wbadmus.netlify.app",
   ),
 
   title: {
