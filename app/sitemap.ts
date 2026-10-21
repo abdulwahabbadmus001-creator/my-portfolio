@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';export default function sitemap():MetadataRoute.Sitemap{return ['','work','research','about'].map(p=>({url:`https://wahabbadmus.netlify.app/${p}`,lastModified:new Date(),changeFrequency:'monthly' as const,priority:p?0.7:1}))}
